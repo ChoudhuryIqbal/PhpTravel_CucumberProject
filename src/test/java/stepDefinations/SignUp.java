@@ -81,47 +81,14 @@ public class SignUp extends BaseUtil{
 		
 
 	}
-	@Given("^User enter Choudhury$")
-	public void user_enter_Choudhury() throws Throwable {
-	   
-	}
 
-	@Given("^User enter Iqbalnnn$")
-	public void user_enter_Iqbalnnn() throws Throwable {
-	   
-	}
-
-	@Given("^User enter (\\d+)$")
-	public void user_enter(int arg1) throws Throwable {
-	 
-	}
-
-	@Given("^User enter <email>$")
-	public void user_enter_email() throws Throwable {
-
-	}
-
-	@Given("^User enter <password>$")
-	public void user_enter_password() throws Throwable {
-	    
-	}
-
-	@Given("^User confirms with different userAdmin$")
-	public void user_confirms_with_different_userAdmin() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-
-	}
 
 	@Then("^User won't able to sign up$")
 	public void user_won_t_able_to_sign_up() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	
+	  
 	}
 
-	@Given("^User confirms with different userAdmin(\\d+)$")
-	public void user_confirms_with_different_userAdmin(int arg1) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	   
-	}
+
+
 
 }
