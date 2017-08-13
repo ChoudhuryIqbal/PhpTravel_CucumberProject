@@ -14,3 +14,22 @@ Feature: SignUpFeature
 	When User click sign up button
 	Then User will be able to sign up successfully
 	 
+	 
+	 	
+	
+	Scenario Outline: Sign up with invalid user data
+	Given user navigage to hommepage
+	And  User click my account
+	And User Click sign up
+	And User enter <firstName>
+	And User enter <lastName> 
+	And User enter <mobileNumber> 
+	And User enter <email>
+	And User enter <password> 
+	And User confirms with different <password1>
+	When User click sign up button
+	Then User won't able to sign up
+	Examples:
+	|firstName|lastName|mobileNumber|  email   password|password1|
+	|Choudhury|Iqbalnnn|9293856129  |    a@gmail.com|  userAdmin|  userAdmin1|
+	|Choudhury|Iqbalnnn|9293856129  |    a@gmail.com|  userAdmin2|  userAdmin3|

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="testRunner.TestRunner" time="0" errors="0" skipped="11">
+<testsuite tests="12" failures="0" name="testRunner.TestRunner" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\choudhuryIqbal\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4672897234064346195.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\choudhuryIqbal\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4468960503181165919.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\PuTTY\;C:\Users\choudhuryIqbal\AppData\Local\Microsoft\WindowsApps;C:\Users\choudhuryIqbal\AppData\Roaming\npm;C:\Users\choudhuryIqbal\Desktop\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,38 +62,15 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="Scenario: Sign up with valid user data" name="Given user navigage to hommepage" time="0"/>
-  <testcase classname="Scenario: Sign up with valid user data" name="And User click my account" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Sign up with valid user data" name="And User Click sign up" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Sign up with valid user data" name="And User enter first name as &quot;Choudhury&quot;" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Sign up with valid user data" name="And User enter lastName as &quot;Iqbal&quot;" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Sign up with valid user data" name="And User enter mobile number as &quot;9293856129&quot;" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Sign up with valid user data" name="And User enter email as &quot;iqbalchoudhury2@gmail.com&quot;" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Sign up with valid user data" name="And User enter password as &quot;password&quot;" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Sign up with valid user data" name="And User confirms password as &quot;password&quot;" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Sign up with valid user data" name="When User click sign up button" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Sign up with valid user data" name="Then User will be able to sign up successfully" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Sign up with valid user data" name="Scenario: Sign up with valid user data" time="0">
-    <skipped/>
-  </testcase>
+  <testcase classname="Scenario: Sign up with valid user data" name="And User click my account" time="0"/>
+  <testcase classname="Scenario: Sign up with valid user data" name="And User Click sign up" time="0"/>
+  <testcase classname="Scenario: Sign up with valid user data" name="And User enter first name as &quot;Choudhury&quot;" time="0"/>
+  <testcase classname="Scenario: Sign up with valid user data" name="And User enter lastName as &quot;Iqbal&quot;" time="0"/>
+  <testcase classname="Scenario: Sign up with valid user data" name="And User enter mobile number as &quot;9293856129&quot;" time="0"/>
+  <testcase classname="Scenario: Sign up with valid user data" name="And User enter email as &quot;iqbalchoudhury2@gmail.com&quot;" time="0"/>
+  <testcase classname="Scenario: Sign up with valid user data" name="And User enter password as &quot;password&quot;" time="0"/>
+  <testcase classname="Scenario: Sign up with valid user data" name="And User confirms password as &quot;password&quot;" time="0"/>
+  <testcase classname="Scenario: Sign up with valid user data" name="When User click sign up button" time="0"/>
+  <testcase classname="Scenario: Sign up with valid user data" name="Then User will be able to sign up successfully" time="0"/>
   <testcase classname="Scenario: Sign up with valid user data" name="Scenario: Sign up with valid user data" time="0"/>
 </testsuite>
